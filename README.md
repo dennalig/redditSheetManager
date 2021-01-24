@@ -1,7 +1,9 @@
 # redditSheetManager
 ## A command line tool to pull/remove my reddit saved posts information into a google spread sheet
 
-Actions
+Must Create App with the [Google Cloud Platform](https://console.cloud.google.com/)
+
+Available Actions
 
 1. pullFromRedditSaved
   -Pulls from your saved category on reddit.
