@@ -16,7 +16,7 @@ Actions
 *APIs/Tools Used*
 - [Google Sheets API](https://developers.google.com/sheets)
 
-- [Praw, The Python Reddit API Wrapper](https://praw.readthedocs.io/en/latest/#)  
+- [Praw: The Python Reddit API Wrapper](https://praw.readthedocs.io/en/latest/#)  
 
 
 - ![Google Sheets API](https://images.g2crowd.com/uploads/product/image/social_square/social_square_108db579c4f424a3fa6b8580f8465a21/google-sheets.png) ![Praw](https://avatars3.githubusercontent.com/u/1696888?v=4)
