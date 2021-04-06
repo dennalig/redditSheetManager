@@ -20,7 +20,6 @@ PRAW_CLIENT_SECRET = os.environ.get('REDDIT_SHEET_MANAGER_PRAW_CLIENT_SECRET')
 REDDIT_USERNAME= os.environ.get('REDDIT_USERNAME')
 REDDIT_PASSWORD = os.environ.get('REDDIT_PASSWORD')
 
-
 creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
 
 client = gspread.authorize(creds)
@@ -111,6 +110,7 @@ def pullFromRedditSaved(): #pull from reddit saved function
                 insertRow = [postSubName, postTitle,postLink, 
                     postExternalUrl, postCreationTime]
                 sheet.append_row(insertRow) # append to the end
+                # print(insertRow)
                 savedUrls.append(postLink)
     except gspread.exceptions.APIError:
         print("Exceeded Google Sheet (gspread) API calls, please wait 1 minute")
